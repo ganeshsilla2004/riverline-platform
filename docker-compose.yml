@@ -1,0 +1,65 @@
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  api:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      PORT: "3000"
+      PLATFORM_KEY: ${PLATFORM_KEY:-11111111111111111111111111111111111111111111111111111111111111111}
+      JWT_SECRET: ${JWT_SECRET:-dev-only-jwt-secret-change-in-prod}
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET:-dev-only-webhook-secret}
+      SEED_USER_PASSWORD: ${SEED_USER_PASSWORD:-password123}
+      AUTO_MIGRATE: "true"
+    ports:
+      - "3000:3000"
+
+  worker:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      PLATFORM_KEY: ${PLATFORM_KEY:-11111111111111111111111111111111111111111111111111111111111111111}
+      JWT_SECRET: ${JWT_SECRET:-dev-only-jwt-secret-change-in-prod}
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET:-dev-only-webhook-secret}
+    command: ["node", "dist/worker.js"]
+
+volumes:
+  mongo_data:

@@ -1,0 +1,182 @@
+[
+  {
+    "_id": "5a6e45e2-d05d-402e-8d8b-6942d1806d22",
+    "userId": "5a6e45e2-d05d-402e-8d8b-6942d1806d22",
+    "name": "Manoj Bose",
+    "email": "manoj.bose@gmail.com",
+    "role": "admin",
+    "clientId": "client_sunrise_001",
+    "status": "active",
+    "createdAt": "2024-03-01T00:00:00.000Z"
+  },
+  {
+    "_id": "05f5e270-1190-449a-80fb-706b5f464d90",
+    "userId": "05f5e270-1190-449a-80fb-706b5f464d90",
+    "name": "Vivek Kamath",
+    "email": "vivekkamath@outlook.com",
+    "role": "debt-counselor",
+    "clientId": "client_sunrise_001",
+    "status": "active",
+    "createdAt": "2024-05-21T11:06:14.000Z"
+  },
+  {
+    "_id": "e6ab3ef2-b475-46d9-85d6-652a1401e449",
+    "userId": "e6ab3ef2-b475-46d9-85d6-652a1401e449",
+    "name": "Hitesh Mehta",
+    "email": "hitesh.mehta@rediffmail.com",
+    "role": "debt-counselor",
+    "clientId": "client_sunrise_001",
+    "status": "active",
+    "createdAt": "2024-05-06T01:40:56.000Z"
+  },
+  {
+    "_id": "5a96238c-71f0-4ef7-8d36-1ceeeb99412c",
+    "userId": "5a96238c-71f0-4ef7-8d36-1ceeeb99412c",
+    "name": "Ajay Menon",
+    "email": "ajay.menon@hotmail.com",
+    "role": "debt-counselor",
+    "clientId": "client_sunrise_001",
+    "status": "active",
+    "createdAt": "2024-08-12T13:36:36.000Z"
+  },
+  {
+    "_id": "9feb3a0f-6e4d-4b1e-8e55-ffc26300a349",
+    "userId": "9feb3a0f-6e4d-4b1e-8e55-ffc26300a349",
+    "name": "Rohit Singh",
+    "email": "rohitsingh@rediffmail.com",
+    "role": "engineer",
+    "clientId": "client_sunrise_001",
+    "status": "active",
+    "createdAt": "2024-04-15T00:00:00.000Z"
+  },
+  {
+    "_id": "6ed6de65-7f51-49d3-a276-4588c01dc08a",
+    "userId": "6ed6de65-7f51-49d3-a276-4588c01dc08a",
+    "name": "Sachin Mukherjee",
+    "email": "sachin_mukherjee1993@gmail.com",
+    "role": "client-viewer",
+    "clientId": "client_sunrise_001",
+    "status": "active",
+    "createdAt": "2024-05-01T00:00:00.000Z"
+  },
+  {
+    "_id": "46a8b462-448e-4a95-be06-ee1eeb05bcf5",
+    "userId": "46a8b462-448e-4a95-be06-ee1eeb05bcf5",
+    "name": "Vivek Shah",
+    "email": "vivek.shah30@hotmail.com",
+    "role": "admin",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-03-01T00:00:00.000Z"
+  },
+  {
+    "_id": "50b7a2a8-de56-419c-bf37-654460d704d4",
+    "userId": "50b7a2a8-de56-419c-bf37-654460d704d4",
+    "name": "Pankaj Thakur",
+    "email": "pankaj_thakur1993@hotmail.com",
+    "role": "debt-counselor",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-07-15T06:43:10.000Z"
+  },
+  {
+    "_id": "cc2cf5fe-e12f-494c-9928-464b12833173",
+    "userId": "cc2cf5fe-e12f-494c-9928-464b12833173",
+    "name": "Radha Gupta",
+    "email": "radhagupta1992@yahoo.co.in",
+    "role": "debt-counselor",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-04-01T17:30:38.000Z"
+  },
+  {
+    "_id": "0eed5c8b-0959-4504-a91d-2c9a6762f98e",
+    "userId": "0eed5c8b-0959-4504-a91d-2c9a6762f98e",
+    "name": "Gaurav Sen",
+    "email": "gaurav.sen@yahoo.co.in",
+    "role": "debt-counselor",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-08-07T13:52:39.000Z"
+  },
+  {
+    "_id": "be0efd63-97d4-4cff-a857-ae319d194c07",
+    "userId": "be0efd63-97d4-4cff-a857-ae319d194c07",
+    "name": "Mukesh Naidu",
+    "email": "mukesh_naidu1993@hotmail.com",
+    "role": "debt-counselor",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-04-11T06:54:41.000Z"
+  },
+  {
+    "_id": "fc0efe51-dd96-4975-9ee8-14949af8142f",
+    "userId": "fc0efe51-dd96-4975-9ee8-14949af8142f",
+    "name": "Geeta Bhat",
+    "email": "geeta.bhat@outlook.com",
+    "role": "engineer",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-04-15T00:00:00.000Z"
+  },
+  {
+    "_id": "df331c8c-5af2-44ed-b965-5c21c513c4f9",
+    "userId": "df331c8c-5af2-44ed-b965-5c21c513c4f9",
+    "name": "Hitesh Kulkarni",
+    "email": "hiteshkulkarni@yahoo.co.in",
+    "role": "client-viewer",
+    "clientId": "client_metro_002",
+    "status": "active",
+    "createdAt": "2024-05-01T00:00:00.000Z"
+  },
+  {
+    "_id": "30b7b99f-245d-4032-97df-c6dc238e546e",
+    "userId": "30b7b99f-245d-4032-97df-c6dc238e546e",
+    "name": "Deepak Verma",
+    "email": "deepak.verma@rediffmail.com",
+    "role": "admin",
+    "clientId": "client_digital_003",
+    "status": "active",
+    "createdAt": "2024-03-01T00:00:00.000Z"
+  },
+  {
+    "_id": "814dec6f-fd55-4155-ae15-ef8210d22e16",
+    "userId": "814dec6f-fd55-4155-ae15-ef8210d22e16",
+    "name": "Geeta Rao",
+    "email": "geetarao60@outlook.com",
+    "role": "debt-counselor",
+    "clientId": "client_digital_003",
+    "status": "active",
+    "createdAt": "2024-08-15T03:31:26.000Z"
+  },
+  {
+    "_id": "43114c61-cfed-44ff-8c86-d6bbe7a3c9d9",
+    "userId": "43114c61-cfed-44ff-8c86-d6bbe7a3c9d9",
+    "name": "Padma Mishra",
+    "email": "padmamishra69@hotmail.com",
+    "role": "debt-counselor",
+    "clientId": "client_digital_003",
+    "status": "active",
+    "createdAt": "2024-03-22T15:52:14.000Z"
+  },
+  {
+    "_id": "0ac6cd20-b02c-4ab0-aeb7-682c67755f06",
+    "userId": "0ac6cd20-b02c-4ab0-aeb7-682c67755f06",
+    "name": "Ashok Bhat",
+    "email": "ashok.bhat93@outlook.com",
+    "role": "engineer",
+    "clientId": "client_digital_003",
+    "status": "active",
+    "createdAt": "2024-04-15T00:00:00.000Z"
+  },
+  {
+    "_id": "e7bae5bd-e147-4f0e-b1dc-91c04281f610",
+    "userId": "e7bae5bd-e147-4f0e-b1dc-91c04281f610",
+    "name": "Sapna Joshi",
+    "email": "sapnajoshi2000@outlook.com",
+    "role": "client-viewer",
+    "clientId": "client_digital_003",
+    "status": "active",
+    "createdAt": "2024-05-01T00:00:00.000Z"
+  }
+]

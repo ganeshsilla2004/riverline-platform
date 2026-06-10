@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "e912cd1d-6f1a-4c4c-a273-598faf88150f",
+    "clientId": "client_sunrise_001",
+    "name": "Sunrise Finance",
+    "type": "NBFC",
+    "status": "active",
+    "onboardedAt": "2024-05-04T03:56:41.000Z",
+    "contactEmail": "ops@sunrisefinance.in",
+    "region": "north"
+  },
+  {
+    "_id": "ab764e7b-28b2-4d40-81d6-5910ad2028d2",
+    "clientId": "client_metro_002",
+    "name": "Metro Credit Union",
+    "type": "cooperative_bank",
+    "status": "active",
+    "onboardedAt": "2024-01-05T20:33:30.000Z",
+    "contactEmail": "ops@metrocreditunion.in",
+    "region": "west"
+  },
+  {
+    "_id": "52695460-57c4-46c8-8235-0fcda6120dc4",
+    "clientId": "client_digital_003",
+    "name": "Digital Lending Co",
+    "type": "NBFC",
+    "status": "active",
+    "onboardedAt": "2024-02-17T13:16:43.000Z",
+    "contactEmail": "ops@digitallendingco.in",
+    "region": "south"
+  }
+]
