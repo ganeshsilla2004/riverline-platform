@@ -1,4 +1,4 @@
-# Riverline Backend Platform — Take-Home Assessment
+# Backend Platform 
 
 A secure, multi-tenant data platform for debt collection. Replaces the
 broken shared-DB system described in `../assessment/spec.md`.
